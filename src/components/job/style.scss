@@ -1,0 +1,12 @@
+.main_container {
+	background-color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	box-shadow: 0 5px 15px hsla(180, 26%, 43%, 0.5);
+}
+.main_container#featured {
+	border-left: 5px solid hsl(180, 29%, 50%);
+}
