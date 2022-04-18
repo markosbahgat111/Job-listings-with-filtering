@@ -13,7 +13,7 @@ const Filters = ({ filters, handleSearch }) => {
 						<img
 							src={closeIcon}
 							alt={closeIcon}
-							className='h-full w-full cursor-pointer bg-[#5ba4a4] p-3'
+							className='h-full w-full cursor-pointer bg-[#5ba4a4] p-3 m-auto'
 							onClick={() => handleSearch(JSON.parse(filter).key, JSON.parse(filter).type, true)}
 						/>
 					</section>
